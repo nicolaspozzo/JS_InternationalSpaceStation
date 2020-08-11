@@ -1,0 +1,32 @@
+
+
+
+html{
+    
+    background-color: black;
+    color:white;
+}
+div{
+    padding: 10px;
+}
+
+.fondo{
+    
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+
+#mapid {
+    background-color: black;
+    padding-top: 56.25%; 
+    border: 1px solid grey;
+   /* height: 450px;
+    width: 550px; */
+ }
+
+ #tablaDatos{
+ }
+
+
+
