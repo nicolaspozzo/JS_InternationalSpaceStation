@@ -1,4 +1,54 @@
-body{
-    background-color: black;
-    color: white;
+body {
+  background: url(images/stars.png);
+  background-size: cover;
+}
+.earth {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 50%;
+  background: url(images/earth01.jpg);
+  background-size: cover;
+  animation: rotate 20s linear infinite;
+  border: 2px solid black;
+  box-shadow: -40px -40px 40px inset;
+}
+
+@keyframes rotate {
+  100% {
+    background-position: 100%;
+  }
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.enter {
+    padding:30px;    
+    display: flex;    
+    justify-content: center;
+}
+
+button {
+  background-color: black;
+  border-radius: 75%;
+  width: 170px;
+  height: 70px;
+  border: 2px solid white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+button:hover {
+  border: 2px solid blue;
+}
+a:hover {
+  color: blue;
 }

@@ -1,32 +1,55 @@
-
-
-
-html{
-    
-    background-color: black;
-    color:white;
-}
-div{
-    padding: 10px;
+html, .fondo {
+  /* background-color: black;*/
+  color: white; 
+  background: url(images/stars.png);
+  background-size: cover;
 }
 
-.fondo{
-    
-    background-color: black;
-    color:white;
-    padding: 10px;
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.fondo {
+  /* background-color: black;
+  color: white; */
+  padding: 10px;
 }
 
 #mapid {
-    background-color: black;
-    padding-top: 56.25%; 
-    border: 1px solid grey;
-   /* height: 450px;
+  /* background-color: black; */
+  padding-top: 56.25%;
+  border: 1px solid grey;
+  /* height: 450px;
     width: 550px; */
- }
+}
 
- #tablaDatos{
- }
+#tablaDatos {
+}
 
-
-
+.back {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  background-color: black;
+  border-radius: 75%;
+  width: 170px;
+  height: 70px;
+  border: 2px solid white;
+}
+#btn_Back {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#btn:hover {
+  border: 2px solid blue;
+}
+#btn_Back:hover {
+  color: blue;
+}

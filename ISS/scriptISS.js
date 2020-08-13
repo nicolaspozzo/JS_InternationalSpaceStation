@@ -13,7 +13,7 @@ L.tileLayer(tilesProvider, {
 
 // Making a marker with a custom icon
 var issIcon = L.icon({
-    iconUrl:"iss.png",
+    iconUrl:"images/iss.png",
     iconSize:[50,30],
     iconAnchor:[25,16]
 })

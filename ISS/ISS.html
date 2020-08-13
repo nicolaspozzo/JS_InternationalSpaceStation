@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 
 <head>
     <meta charset=utf-8>
@@ -40,48 +40,55 @@
 
 <body>
 
-        <form class=fondo>
+    <form class=fondo>
 
         <div class="container" id=container>
             <div>
                 <h1>Where is the ISS?</h1>
             </div>
 
-            
-            <div id=mapid>
 
-            </div>
+            <div id=mapid> </div>
 
-                <table class="table table-dark" id=tablaDatos>
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Latitud</th>
-                            <th scope="col">Longitud</th>
-                            <th scope="col">Altitud</th>
-                            <th scope="col">Velocidad</th>
-                            <th scope="col">Visiblildad</th>
-                            <th scope="col">Unidad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td><span id=lat></span></td>
-                            <td><span id=lon></span></td>
-                            <td><span id=alt></span></td>
-                            <td><span id=vel></span></td>
-                            <td><span id=vis></span></td>
-                            <td><span id=uni></span></td>
-                        </tr>
 
-                    </tbody>
-                </table>
-            
 
+            <table class="table table-dark" id=tablaDatos>
+                <thead>
+                    <tr>
+                        <th scope="col">Latitud</th>
+                        <th scope="col">Longitud</th>
+                        <th scope="col">Altitud</th>
+                        <th scope="col">Velocidad</th>
+                        <th scope="col">Visiblildad</th>
+                        <th scope="col">Unidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id=lat></span></td>
+                        <td><span id=lon></span></td>
+                        <td><span id=alt></span></td>
+                        <td><span id=vel></span></td>
+                        <td><span id=vis></span></td>
+                        <td><span id=uni></span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="row back">
+            <button id="btn">
+                <a id="btn_Back" href="index.html">Back</a>
+            </button>
         </div>
 
     </form>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
