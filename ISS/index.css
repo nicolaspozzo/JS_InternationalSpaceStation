@@ -1,13 +1,21 @@
 body {
   background: url(images/stars.png);
   background-size: cover;
+  color:black;
+}
+
+.box{
+  width: 800px;
+  height: 300px;
+  margin:auto;
+  position: relative;
 }
 .earth {
   width: 400px;
   height: 400px;
   margin: auto;
   border-radius: 50%;
-  background: url(images/earth01.jpg);
+  background: url(images/earth03.png);
   background-size: cover;
   animation: rotate 20s linear infinite;
   border: 2px solid black;
@@ -20,6 +28,27 @@ body {
   }
 }
 
+.iss{
+  width:150px;
+  height: 100px;
+  background:url(images/iss03.png);
+  background-size: cover;
+  position: absolute;
+  top:0;
+  left:0;
+  animation: orbit 20s infinite;
+}
+
+@keyframes orbit{
+  50%{
+    left: calc(80%);
+    top: calc(100%);
+  }
+  100%{
+    z-index: -1;
+  }
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -27,7 +56,7 @@ h1 {
 }
 
 .enter {
-    padding:30px;    
+    margin:150px;    
     display: flex;    
     justify-content: center;
 }
@@ -52,3 +81,4 @@ button:hover {
 a:hover {
   color: blue;
 }
+

@@ -48,8 +48,8 @@ h1 {
   text-transform: uppercase;
 }
 #btn:hover {
-  border: 2px solid blue;
+  border: 2px solid red;
 }
 #btn_Back:hover {
-  color: blue;
+  color: red;
 }
